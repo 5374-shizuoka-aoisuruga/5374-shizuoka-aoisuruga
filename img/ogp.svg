@@ -10,11 +10,14 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1200"
-   height="800"
+   height="1200"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="ogp.svg">
+   sodipodi:docname="ogp.svg"
+   inkscape:export-filename="D:\github\5374-shizuoka-aoisuruga\img\ogp.png"
+   inkscape:export-xdpi="70.379997"
+   inkscape:export-ydpi="70.379997">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -43,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -51,13 +54,13 @@
      inkscape:label="レイヤー 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-252.36218)">
+     transform="translate(0,147.63782)">
     <g
        id="g3842"
        transform="translate(-193.94929,22.223356)">
       <g
          id="g3849"
-         transform="matrix(0.62925116,0.77720202,-0.77720202,0.62925116,858.14376,-91.427302)">
+         transform="matrix(0.32349591,0.94622957,-0.94622957,0.32349591,1121.1649,-160.49187)">
         <rect
            style="fill:#4d4d4d;fill-opacity:0.96363633;fill-rule:nonzero;stroke:none"
            id="rect2993"
@@ -104,25 +107,20 @@
       <text
          xml:space="preserve"
          style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Impact;-inkscape-font-specification:Impact"
-         x="804.08148"
-         y="597.79358"
+         x="674.78192"
+         y="686.68695"
          id="text3856"
          sodipodi:linespacing="125%"><tspan
            sodipodi:role="line"
            id="tspan3858"
-           x="804.08148"
-           y="597.79358"
+           x="674.78192"
+           y="686.68695"
            style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'07YasashisaGothic';-inkscape-font-specification:'07YasashisaGothic'">5374.jp</tspan><tspan
            sodipodi:role="line"
-           x="804.08148"
-           y="677.79358"
-           id="tspan3860"
-           style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'07YasashisaGothic';-inkscape-font-specification:'07YasashisaGothic'">静岡市</tspan><tspan
-           sodipodi:role="line"
-           x="804.08148"
-           y="757.79358"
+           x="674.78192"
+           y="766.68695"
            style="font-size:64px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'07YasashisaGothic';-inkscape-font-specification:'07YasashisaGothic'"
-           id="tspan3862">葵区・駿河区版</tspan></text>
+           id="tspan3862">静岡市葵区・駿河区版</tspan></text>
     </g>
   </g>
 </svg>
