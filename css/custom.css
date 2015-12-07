@@ -60,7 +60,19 @@ a:hover {
 }
 /* ゴミを捨てるときの注意事項 */
 #accordion .note {
-	font-size: 10px;
+	font-size: 11px;
+}
+
+
+#hinmoku {
+	background:#EEEEEE;
+}
+#select_area {
+	background-color:#EEEEEE;
+}
+
+#select_area2 {
+	background-color:#EEEEEE;
 }
 
 /*!
@@ -116,6 +128,8 @@ a:hover {
 	margin-left: 5px;
 }
 
+
+ 
 /*!
  * Maybe not in use. Remove these later.
  */
