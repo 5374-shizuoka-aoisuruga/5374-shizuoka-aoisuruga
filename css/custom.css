@@ -75,6 +75,31 @@ a:hover {
 	background-color:#EEEEEE;
 }
 
+#acMenu dt{
+	color: #000000;
+	height: 22px;
+	display: block;
+	margin: 0;
+	text-align: left;
+	font-size: 25px;
+	margin: 15px 0 15px 15px;
+	font-weight:normal;
+    cursor:pointer;
+    background:url(./../img/down.png) right no-repeat;
+    padding-right:15px;
+    }
+#acMenu dd{
+	padding: 9px 15px;
+    background:#ffffff;
+    width:100%;
+    text-align:left;
+    border:#666 1px none;
+    display:none;
+    }
+#acMenu dt.active{
+    background:url(./../img/up.png) right no-repeat;
+    }
+    
 /*!
  * 備考欄
  */
