@@ -81,7 +81,7 @@ a:hover {
 	display: block;
 	margin: 0;
 	text-align: left;
-	font-size: 25px;
+	font-size: 20px;
 	margin: 15px 0 15px 15px;
 	font-weight:normal;
     cursor:pointer;
@@ -119,7 +119,7 @@ a:hover {
 	display: block;
 	margin: 0;
 	text-align: left;
-	font-size: 25px;
+	font-size: 20px;
 	margin: 15px 0 15px 15px;
 }
 #accordion3 a.accordion-toggle-top:hover {
