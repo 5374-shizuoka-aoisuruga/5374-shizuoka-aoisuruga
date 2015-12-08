@@ -85,7 +85,7 @@ a:hover {
 	margin: 15px 0 15px 15px;
 	font-weight:normal;
     cursor:pointer;
-    background:url(./../img/down.png) right no-repeat;
+    background:url(./../img/down.png) 95% 50% no-repeat;
     padding-right:15px;
     }
 #acMenu dd{
@@ -97,7 +97,7 @@ a:hover {
     display:none;
     }
 #acMenu dt.active{
-    background:url(./../img/up.png) right no-repeat;
+    background:url(./../img/up.png) 95% 50% no-repeat;
     }
     
 /*!
@@ -125,6 +125,7 @@ a:hover {
 #accordion3 a.accordion-toggle-top:hover {
 	color: #000000;
 }
+
 #accordion3 h2 {
 	font-size: 25px;
 	margin-top: 40px;

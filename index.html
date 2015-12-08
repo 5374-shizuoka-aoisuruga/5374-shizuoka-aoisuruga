@@ -717,10 +717,14 @@
 		</div>
 	</div>
 
-	<dl id="acMenu">
-    <dt>データとライセンス</dt>
-    	<dd>
-    			<div>
+	<div class="accordion" id="accordion3">
+		<div class="accordion-group-top">
+			<div class="accordion-heading">
+				<a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion3" href="#collapse5_1">データとライセンス</a>
+			</div>
+			<div id="collapse5_1" class="accordion-body collapse">
+				<div class="accordion-inner">
+				<div >
 					<h3>提供されるゴミ情報について</h3>
 					<p>静岡市が<a href="http://open.city.shizuoka.jp/" style=" color: #FF0000;text-decoration: underline;">シズオカ オープンデータ ポータル</a>にて公開している各種オープンデータを元にアプリに実装しました。</p>
 					<h3>ライセンスについて</h3>
@@ -738,7 +742,7 @@
 				</div>
 
 				<div id="contributors">
-					<h3>Contributors in 静岡市葵区・駿河区区版</h3>
+					<h3>Contributors in 静岡市葵区・駿河区版</h3>
 					<ul>
 						<li></li>
 						<li></li>
@@ -747,12 +751,17 @@
 						<li></li>
 					</ul>
 				</div>
-		</dd>
-	</dl>
+			</div>
+		</div>
+	</div>
 
-	<dl id="acMenu">
-    <dt>その他静岡市の5374.jpリンク</dt>
-    <dd>
+	<div class="accordion" id="accordion6">
+		<div class="accordion-group-top">
+			<div class="accordion-heading">
+				<a class="accordion-toggle-top" data-toggle="collapse" data-parent="#accordion6" href="#collapse6_1">その他静岡市の5374.jpリンク</a>
+			</div>
+			<div id="collapse6_1" class="accordion-body collapse">
+				<div class="accordion-inner">
 				<div>
 					<!--
 					<p><a href="http://5374-shizuoka-aoisuruga.github.io/5374-shizuoka-aoisuruga/" style=" color: #FF0000;text-decoration: underline;">葵区・駿河区版</a></p>
@@ -761,15 +770,15 @@
 					<p><a href="http://5374-shizuoka-shimizu.github.io/5374-shizuoka-shimizu/" style=" color: #FF0000;text-decoration: underline;">清水区版</a></p>
 					<p><a href="http://5374-shizuoka-kanbarayui.github.io/5374-shizuoka-kanbarayui/" style=" color: #FF0000;text-decoration: underline;">清水区(由比・蒲原地区)版</a></p>
 				</div>
-	</dd>
-	</dl>
+			</div>
+		</div>
+	</div>
 
 
-	<!--
-	<div class="g-plus" data-action="share" data-annotation="bubble" data-width="100" data-href="http://5374-shizuoka-aoisuruga.github.io/5374-shizuoka-aoisuruga/"></div>
+	※テスト中なのでクリックしないで！<br>
+	<div class="g-plus" data-action="share" data-annotation="bubble" data-width="100" data-href="http://5374-shizuoka-aoisuruga.github.io/5374-shizuoka-aoisuruga/"></div><br>
 	<div><a class="twitter-share-button" href="https://twitter.com/share" data-count="true" data-dnt="true">Twitter</a></div>
 	<div class="fb-like" data-href="http://5374-shizuoka-aoisuruga.github.io/5374-shizuoka-aoisuruga/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-	-->
 
   <!-- JavaScript plugins (requires jQuery) -->
   <script src="js/jquery-1.10.2.min.js"></script>
@@ -799,11 +808,10 @@
 		$(function(){
 			$("#acMenu dt").on("click", function() {
 				$(this).next().slideToggle();
-				$(this).toggleClass("active");
+				$(this).toggleClass("active");//追加部分
 			});
 		});
 	</script>
 	
-	
-	</body>
+  </body>
 </html>
